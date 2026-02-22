@@ -1,0 +1,50 @@
+* {
+    font-family: sans-serif;
+  }
+  input,
+  button {
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  input[type=number] {
+    margin: 0 5px 0 0;
+    text-align: end;
+    width: 300px;
+    font-family: "Bitcount Grid Double", system-ui;
+  }
+  button {
+    border: 1px solid gray;
+    background: whitesmoke;
+    margin-right: 5px;
+  }
+  button.action-button {
+    background: tomato;
+    color: white;
+  }
+  button.action-button:disabled {
+    background: rgba(255, 99, 71, 0.3);;
+    color: white;
+  }
+
+.App {
+  background-color: ivory;
+  padding-left: 30px;
+  height: 100vh;
+}
+
+.result {
+  display: inline-block;
+  width: 300px;
+  padding: 0 10px 0 10px;
+  text-align: end;
+  font-size: xx-large;
+  margin-right: 10px;
+  margin-top: 7px;
+  font-family: "Bitcount Grid Double", system-ui;
+}
+
+.item {
+  margin-bottom: 10px;
+  height: 50px;
+}
